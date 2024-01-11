@@ -13,7 +13,7 @@ export default defineConfig(async () => ({
   server: {
     proxy: {
       // string shorthand: http://localhost:3000/api -> http://localhost:8080/api
-      '/api': 'http://localhost:8084',
+      '/api': 'http://192.168.1.2:8080',
     },
     port: 1420,
     strictPort: true,
